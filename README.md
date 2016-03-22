@@ -1,1 +1,1 @@
-# resizer-android
+# resized-android
