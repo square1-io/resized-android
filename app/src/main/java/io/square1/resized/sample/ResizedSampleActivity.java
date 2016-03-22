@@ -31,7 +31,7 @@ public class ResizedSampleActivity extends AppCompatActivity {
 
         @Override
         protected String getUrl(String model, int width, int height) {
-            return mResized.process(model, width, height);
+            return mResized.process(model, width , -1 );
         }
     }
 

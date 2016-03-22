@@ -56,6 +56,14 @@ public final class Resized {
         return process(uri.toString(), width, height);
     }
 
+    /**
+     * Returns a url to a resized version of the image passed in the imageUrl
+     * @param imageUrl url of the original image
+     * @param width desired width of the resized image ( pass <= 0 value to ignore )
+     * @param height desired height of the resized image ( pass <= 0 value to ignore )
+     *
+     * @return the url to the resized version of the image
+     */
     public String process(String imageUrl, int width, int height ) {
 
         if(validURL(imageUrl) == false){
@@ -70,8 +78,8 @@ public final class Resized {
 
                 data.put("url", imageUrl);
 
-                if(width > 0) data.put("width", width);
-                if(height > 0) data.put("height", height);
+                 data.put("width", width > 0 ? width : JSONObject.NULL);
+                 data.put("height", height > 0 ? height : JSONObject.NULL);
 
                 if(validURL(mDefaultImage) == true){
                     data.put("default", mDefaultImage);

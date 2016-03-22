@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResizedSampleActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResizedSampleActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/io/square1/resized/sample/ResizedSampleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2281106">
-              <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resized.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Resized.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resized/src/main/java/io/square1/resized/Resized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+            <state vertical-scroll-proportion="-1.6958525">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#310#311#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
@@ -128,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/io/square1/resized/sample/ImageListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="107" />
+              <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#852:1142" expanded="false" />
@@ -144,12 +144,12 @@
                 <element signature="e#1665#1666#0" expanded="true" />
                 <element signature="e#1724#1725#0" expanded="true" />
                 <element signature="e#1756#1757#0" expanded="true" />
-                <element signature="e#2858#2859#0" expanded="true" />
-                <element signature="e#2894#2895#0" expanded="true" />
-                <element signature="e#2954#2955#0" expanded="true" />
-                <element signature="e#2997#2998#0" expanded="true" />
-                <element signature="e#3054#3055#0" expanded="true" />
-                <element signature="e#3085#3086#0" expanded="true" />
+                <element signature="e#2917#2918#0" expanded="true" />
+                <element signature="e#2953#2954#0" expanded="true" />
+                <element signature="e#3013#3014#0" expanded="true" />
+                <element signature="e#3056#3057#0" expanded="true" />
+                <element signature="e#3113#3114#0" expanded="true" />
+                <element signature="e#3144#3145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3286,10 +3286,10 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_resizer_sample_grid_listview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/image.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/io/square1/resized/sample/ResizedSampleActivity.java" />
-        <option value="$PROJECT_DIR$/resized/src/main/java/io/square1/resized/Resized.java" />
         <option value="$PROJECT_DIR$/resized/src/main/java/io/square1/resized/StringUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/square1/resized/sample/ResizedSampleActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/square1/resized/sample/ImageListAdapter.java" />
+        <option value="$PROJECT_DIR$/resized/src/main/java/io/square1/resized/Resized.java" />
       </list>
     </option>
   </component>
@@ -3297,7 +3297,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1791" />
+    <option name="x" value="-1879" />
     <option name="y" value="23" />
     <option name="width" value="1714" />
     <option name="height" value="886" />
@@ -3619,7 +3619,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1791" y="23" width="1714" height="886" extended-state="0" />
+    <frame x="-1879" y="23" width="1714" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -3662,14 +3662,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/resized/src/main/java/io/square1/resized/Resized.java</url>
-          <line>92</line>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="imageUrl" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/io/square1/resizer/ApplicationTest.java">
@@ -3824,10 +3828,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/square1/resized/sample/ResizedSampleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/io/square1/resized/sample/ImageListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="107" />
+          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#852:1142" expanded="false" />
@@ -3843,33 +3857,23 @@
             <element signature="e#1665#1666#0" expanded="true" />
             <element signature="e#1724#1725#0" expanded="true" />
             <element signature="e#1756#1757#0" expanded="true" />
-            <element signature="e#2858#2859#0" expanded="true" />
-            <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
-            <element signature="e#2997#2998#0" expanded="true" />
-            <element signature="e#3054#3055#0" expanded="true" />
-            <element signature="e#3085#3086#0" expanded="true" />
+            <element signature="e#2917#2918#0" expanded="true" />
+            <element signature="e#2953#2954#0" expanded="true" />
+            <element signature="e#3013#3014#0" expanded="true" />
+            <element signature="e#3056#3057#0" expanded="true" />
+            <element signature="e#3113#3114#0" expanded="true" />
+            <element signature="e#3144#3145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resized/src/main/java/io/square1/resized/Resized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+        <state vertical-scroll-proportion="-1.6958525">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#310#311#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/square1/resized/sample/ResizedSampleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2281106">
-          <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

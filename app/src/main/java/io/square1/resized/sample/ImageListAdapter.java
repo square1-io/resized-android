@@ -94,7 +94,7 @@ public class ImageListAdapter extends BaseAdapter {
 
         for(int index = 0; index < 100; index ++ ){
             mItems.add( new ImageItem("http://digital-photography-school.com/wp-content/uploads/flickr/5661878892_15fba42846_o.jpg", rand(dpWidth) , rand(dpWidth)));
-          //  mItems.add( new ImageItem("http://7-themes.com/data_images/out/37/6895404-green-landscape.jpg", rand(dpWidth) , rand(dpWidth)));
+           mItems.add( new ImageItem("http://www.dream-wallpaper.com/free-wallpaper/nature-wallpaper/dual-screen-landscape-wallpaper/dual-screen/free-wallpaper-16.jpg", rand(dpWidth) , rand(dpWidth)));
 
         }
 
