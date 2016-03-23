@@ -6,8 +6,6 @@ import android.util.Base64;
 
 import org.json.JSONObject;
 
-import java.util.StringTokenizer;
-
 /**
  * Created by roberto on 22/03/2016.
  */
@@ -87,14 +85,16 @@ public final class Resized {
 
                 /// get the sha1
                 String stringData = data.toString();
-                String hash = StringUtils.SHA1(mKey + mSecret + stringData);
+                String hash = SHA1.encode(mKey + mSecret + stringData);
 
                 JSONObject encodedData = new JSONObject();
                 encodedData.put("data", stringData);
                 encodedData.put("hash", hash);
                 stringData = encodedData.toString();
 
-                String uri = Base64.encodeToString(stringData.getBytes(),  Base64.NO_WRAP | Base64.URL_SAFE );
+               final String uri = Base64.encodeToString(stringData.getBytes(),
+                        Base64.NO_WRAP | Base64.URL_SAFE );
+
                 Uri.Builder request = Uri.parse(mHost).buildUpon();
                 request.appendPath(mKey).appendEncodedPath(uri);
 
