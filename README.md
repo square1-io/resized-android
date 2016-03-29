@@ -3,10 +3,10 @@
 
 # resized-android
 
-add the Square1 Maven repo to build.gradle 
+This library is hosted on Jcenter , make sure to have the repo included in your gradle settings.
 
-    repositories {
-        maven { url 'https://dl.bintray.com/square1io/maven' }
+   repositories {
+        jcenter()
     }
     
 add the following to the dependencies section :
