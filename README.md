@@ -3,11 +3,14 @@
 
 # resized-android
 
-This library is hosted on Jcenter , make sure to have the repo included in your gradle settings.
+Usage with  Gradle:
 
-   repositories {
-        jcenter()
-    }
-    
-add the following to the dependencies section :
-    { compile 'io.square1:resized:1.0'}
+```gradle
+repositories {
+  jcenter() 
+}
+
+dependencies {
+  compile 'io.square1:resized:1.0'
+}
+```
