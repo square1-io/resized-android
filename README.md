@@ -9,8 +9,5 @@ add the Square1 Maven repo to build.gradle
         maven { url 'https://dl.bintray.com/square1io/maven' }
     }
     
-add the following dependency:
-
-dependencies {
-    compile 'io.square1:resized:1.0'
-}
+add the following to the dependencies section :
+    { compile 'io.square1:resized:1.0'}
