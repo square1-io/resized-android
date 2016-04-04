@@ -23,15 +23,15 @@ dependencies {
 
 ``` 
     //Initialize and authenticate
-    Resized resized = Resized.init(key ,secret));
+    Resized resized = Resized.init(key ,secret);
 
     //Override host if applicable
     resized.setHost("https://img.resized.co");
 
     //Set the default failover image
-    resized.setDefaultImage('http:/www.example.com/no-image.jpg');
+    resized.setDefaultImage("http:/www.example.com/no-image.jpg");
 
-    //Process image resize with the parameters: ($url, $width, $height, $title)
+    //Process image resize with the parameters: (url, width, height)
     String img = resized.process("http://www.example.com/some-image.jpg", 100, 100);
 ```
 
@@ -40,6 +40,5 @@ dependencies {
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-Usage with  Gradle:
 
 
