@@ -25,10 +25,10 @@ dependencies {
     //Initialize and authenticate
     Resized resized = Resized.init(key ,secret);
 
-    //Override host if applicable
+    //Override host if applicable (optional step)
     resized.setHost("https://img.resized.co");
 
-    //Set the default failover image
+    //Set the default failover image ( optional step)
     resized.setDefaultImage("http:/www.example.com/no-image.jpg");
 
     //Process image resize with the parameters: (url, width, height)
