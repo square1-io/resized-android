@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/square1-io/resized-android'
     gitUrl = 'https://github.com/square1-io/resized-android.git'
 
-    libraryVersion = '1.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'square1io'
     developerName = 'Roberto Prato'
@@ -32,7 +32,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
     }
     buildTypes {
         release {
@@ -50,7 +50,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.2.1'
 }
 
 apply plugin: 'com.jfrog.bintray'
