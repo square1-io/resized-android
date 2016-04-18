@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-  compile 'io.square1:resized:1.0'
+  compile 'io.square1:resized:1.0.1'
 }
 ```
 
